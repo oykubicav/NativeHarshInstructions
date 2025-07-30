@@ -1,4 +1,5 @@
 import os, cv2, numpy as np, streamlit as st
+os.environ["YOLO_CONFIG_DIR"] = "/tmp/ultralytics"
 from PIL import Image, ImageOps, ImageDraw
 from ultralytics import YOLO
 
