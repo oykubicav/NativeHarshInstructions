@@ -6,3 +6,6 @@ pillow
 transformers
 langchain
 huggingface_hub
+opencv-python-headless
+numpy
+streamlit
